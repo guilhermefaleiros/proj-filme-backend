@@ -25,10 +25,15 @@ npm run dev
 ## Uso
 
 A API possui 4 métodos principais:
-    - MovieController.index -> Realiza o filtro dos filmes de acordo com o gênero escolhido. (GET)
-    - MovieController.delete -> Deleta um registro de filme de acordo com o _id gerado pelo MongoDB ao ser registrada. (DELETE)
-    - MovieController.store -> Realiza a persistência de um novo filme no banco de dados. (POST)
-    - DashboardController.index -> Lista TODOS os filmes do banco de dados. (GET)
+
+- MovieController.index (Usado para filtrar os filmes desejados a partir do gênero).
+- MovieController.delete (Deletar um determinado filme do banco de dados de acordo com _id gerado pelo MongoDB).
+- MovieController.store (Persistir determinado filme no banco de dados).
+- DashboardController.index (Listar todos os filmes do banco de dados).
+
+Exemplos de casos de uso:
+- Deseja-se catalogar determinados filmes em uma página web.
+- Cadastrar filmes contidos em determinado site de download de filmes.
 
 ## Tecnologias usadas
 
